@@ -47,7 +47,7 @@ Experiments are conducted on the following **public benchmark datasets**:
 * **UIEB**
 * **LSUI**
 * **UFO-120**
-* **GoPro-Underwater**
+* **GoPro**
 
 Only the **paired data** are required for training where applicable.
 
