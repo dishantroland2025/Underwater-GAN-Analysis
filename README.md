@@ -134,14 +134,6 @@ Speed and efficiency are measured via:
 
 ---
 
-## Relation to the Manuscript
-
-This codebase is **directly associated** with the manuscript submitted to *The Visual Computer*.
-If you use this repository in your research, **please cite the corresponding paper**.
-
-> **DOI (paper):** *To be added upon acceptance*
-> **DOI (code – Zenodo):** *To be added*
-
 ---
 
 ## License
@@ -151,16 +143,15 @@ See the `LICENSE` file for details.
 
 ---
 
-## Citation
+## 📄 Manuscript & Citation
 
+This codebase is directly associated with:
+
+> Singh, R. *et al.* (2025). Comparative Analysis of GAN Architectures for Enhanced Underwater Image Quality and Efficiency. *Submitted to The Visual Computer*.
+
+If you use this repository, please cite:
 ```bibtex
-@article{Singh2025UnderwaterGAN,
-  title   = {Comparative Analysis of GAN Architectures for Enhanced Underwater Image Quality and Efficiency},
-  author  = {Singh, Roland and collaborators},
-  journal = {The Visual Computer},
-  year    = {2025},
-  note    = {Under review}
-}
+
 ```
 
 ---
@@ -169,16 +160,7 @@ See the `LICENSE` file for details.
 
 For questions regarding the code or experiments:
 
-**Roland Singh**
-Undergraduate Researcher (CSE & Data Science)
-Email: *[add your academic email]*
+Email: *dishantroland@gmail.com*
 
 ---
 
-If you want, next I can:
-
-* 🔧 Tighten this further to *exactly* match Springer’s reproducibility checklist
-* 📦 Prepare the **Zenodo release text + DOI citation block**
-* ✉️ Draft the **resubmission email** listing changes (this is *critical* for acceptance)
-
-Just tell me what you want to tackle next.
