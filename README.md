@@ -1,5 +1,3 @@
----
-
 # Underwater GAN Analysis
 
 **Comparative Analysis of GAN Architectures for Enhanced Underwater Image Quality and Efficiency**
