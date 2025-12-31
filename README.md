@@ -154,8 +154,6 @@ If you use this repository, please cite:
 
 ```
 
----
-
 ## Contact
 
 For questions regarding the code or experiments:
