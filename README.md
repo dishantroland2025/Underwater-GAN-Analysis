@@ -1,33 +1,16 @@
-# Underwater GAN Analysis
+Overview
 
-## Overview
-This repository contains the official implementation accompanying the manuscript:
+This repository provides the official implementation and experimental code accompanying the manuscript:
 
-**“Comparative Analysis of GAN Architectures for Enhanced Underwater Image Quality and Efficiency”**
+“Comparative Analysis of GAN Architectures for Enhanced Underwater Image Quality and Efficiency”
+Submitted to The Visual Computer (Springer Nature)
 
-The work presents a comparative study of two GAN-based underwater image enhancement methods:
-- **Sea-Pix-GAN**
-- **MuLA-GAN**
+The goal of this work is to conduct a systematic and reproducible comparison of two representative GAN-based underwater image enhancement models:
 
----
+Sea-Pix-GAN – a wide U-Net–based architecture emphasizing structural fidelity
 
-## Models Implemented
-- **Sea-Pix-GAN**  
-  Wide U-Net–based architecture with high-weight L1 loss.
-- **MuLA-GAN**  
-  Narrow attention-based U-Net architecture with VGG perceptual loss.
+MuLA-GAN – a lightweight attention-driven architecture optimized for efficiency
 
-Both models are implemented and evaluated under identical experimental conditions.
+Underwater images suffer from severe degradation due to light absorption, wavelength-dependent attenuation, and scattering. These effects reduce contrast, distort color balance, and obscure structural details, negatively impacting downstream tasks such as marine monitoring and autonomous navigation.
 
----
-
-## Datasets
-The following publicly available datasets are used in this study:
-- **LSUI**
-- **UIEB**
-- **UFO-120**
-- **GoPro**
-
-Due to licensing constraints, datasets are **not redistributed** here.  
-Instructions and links for downloading and organizing the datasets are provided in:
-
+This repository enables researchers to reproduce all reported experiments, evaluate quantitative metrics, and inspect qualitative results across multiple benchmark datasets.
