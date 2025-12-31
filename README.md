@@ -36,8 +36,7 @@ This repository enables researchers to **reproduce all reported experiments**, e
 * Narrow attention-based U-Net
 * VGG-based perceptual loss
 * Optimized for inference efficiency
-* Reduced memory and runtime requirements
-* 
+* Reduced memory and runtime requirements 
 ---
 
 ## Datasets
