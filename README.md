@@ -24,7 +24,6 @@ This repository enables researchers to **reproduce all reported experiments**, e
 
 ---
 
-
 ## Models Included
 
 ### 1. Sea-Pix-GAN
@@ -40,23 +39,19 @@ This repository enables researchers to **reproduce all reported experiments**, e
 * VGG-based perceptual loss
 * Optimized for inference efficiency
 * Reduced memory and runtime requirements
-
-
+* 
 ---
 
 ## Datasets
 
 Experiments are conducted on the following **public benchmark datasets**:
 
-* **EUVP (Paired subset)**
 * **UIEB**
 * **LSUI**
 * **UFO-120**
 * **GoPro-Underwater**
 
 Only the **paired data** are required for training where applicable.
-
-> **Important:** Dataset licenses remain with their original authors. This repository does **not** redistribute datasets.
 
 ---
 
@@ -93,7 +88,7 @@ GPU acceleration requires:
 
 ## Running Experiments
 
-Each experiment is executed via a Jupyter notebook.
+All experiments are provided as Jupyter notebooks and can be run locally or on Google Colab.
 
 Example:
 
@@ -134,7 +129,6 @@ Speed and efficiency are measured via:
 
 ---
 
----
 
 ## License
 
