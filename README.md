@@ -52,75 +52,66 @@ Only the **paired data** are required for training where applicable.
 
 ---
 
-## Installation
+## Performance Benchmarks (Verified on Tesla T4)
+
+The following metrics represent native performance on standard hardware. Sea-Pix-GAN demonstrates superior throughput despite higher complexity due to optimized kernel execution.
+
+| Model | Parameters (M) ↓ | GFLOPS ↓ | Latency (ms) ↓ | Throughput (FPS) ↑ |
+|---|---|---|---|---|
+| Sea-Pix-GAN | 54.42 | 18.20 | 7.15 | 139.95 |
+| MuLA-GAN | 16.56 | 13.10 | 8.48 | 117.96 |
+
+---
+
+## Repository Structure
+
+The repository is organized into two main sections to separate the raw research phase from the final validated results:
+
+* **`reproducible_code/`**: Contains the primary notebooks designed for peer review. These scripts feature a centralized path configuration for easy testing on any dataset.
+* **`original_experiments/`**: Contains the full suite of training and testing notebooks used across all four datasets (UIEB, LSUI, UFO-120, GoPro).
+
+---
+
+## Installation & Setup
 
 ### 1. Clone the repository
-
 ```bash
 git clone https://github.com/dishantroland2025/Underwater-GAN-Analysis.git
 cd Underwater-GAN-Analysis
 ```
 
 ### 2. Environment setup
-
-We recommend using **Conda**.
-
+Install the core requirements:
 ```bash
-conda create -n underwater_gan python=3.8
-conda activate underwater_gan
+pip install torch torchvision numpy opencv-python scikit-image matplotlib ptflops pyyaml
 ```
-
-Install dependencies:
-
-```bash
-pip install torch torchvision numpy opencv-python scikit-image matplotlib tqdm
-```
-
-GPU acceleration requires:
-
-* CUDA ≥ 11.x
-* Compatible PyTorch build
 
 ---
 
-## Running Experiments
+## Reproducing Results
 
-All experiments are provided as Jupyter notebooks and can be run locally or on Google Colab.
+For reviewers and researchers, we recommend starting with the Reproducible Notebooks. These are designed to be executable after setting your local dataset paths.
 
-Example:
-
-```bash
-jupyter notebook "sea-pix-GAN on UFO-120.ipynb"
-```
-
-Follow the instructions inside each notebook to:
-
-* Set dataset paths
-* Load pretrained weights (if applicable)
-* Run inference and evaluation
+1. Navigate to the `reproducible_code/` directory.
+2. Open `Sea-Pix-GAN_reproducible.ipynb` or `MuLA-GAN_reproducible.ipynb`.
+3. Set your `BASE_PATH` in the first cell to point to your local version of the UIEB, LSUI, or custom dataset.
+4. Run all cells to verify Training, Testing, and Quantitative Evaluation (SSIM, PSNR, UIQM).
 
 ---
 
-## Evaluation Metrics
+## Quantitative Results Summary
 
-The following metrics are used, consistent with the manuscript:
+Our analysis shows that Sea-Pix-GAN provides superior structural preservation and perceptual quality:
 
-* **PSNR** – Peak Signal-to-Noise Ratio
-* **SSIM** – Structural Similarity Index
-* **UIQM** – Underwater Image Quality Measure
-
-Speed and efficiency are measured via:
-
-* Inference time per image
-* Parameter count
-* Memory footprint
+* **SSIM**: 16.33% higher average than MuLA-GAN (0.9534 vs 0.8196).
+* **UIQM**: 61.89% higher average perceptual score (4.83 vs 2.98).
+* **Efficiency**: Achieves real-time performance at 139.95 FPS with 7.15 ms latency on Tesla T4 hardware, suitable for modern autonomous underwater vehicles (AUVs).
 
 ---
 
 ## Reproducibility Notes
 
 * All hyperparameters match those reported in the paper.
-* Random seeds are fixed where applicable.
 * Metric implementations are consistent across models.
 * Hardware details are specified in the manuscript.
 
