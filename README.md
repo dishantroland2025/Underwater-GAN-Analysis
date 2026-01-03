@@ -61,7 +61,7 @@ The following metrics represent native performance on standard hardware. Sea-Pix
 | Model | Parameters (M) ↓ | GFLOPS ↓ | Latency (ms) ↓ | Throughput (FPS) ↑ |
 |---|---|---|---|---|
 | Sea-Pix-GAN | 54.42 | 18.20 | 7.15 | 139.95 |
-| MuLA-GAN | 16.56 | 13.10 | 8.48 | 117.96 |
+| MuLA-GAN | 16.56 | 13.10 | 9.46 | 105.67 |
 
 ---
 
@@ -95,8 +95,8 @@ pip install torch torchvision numpy opencv-python scikit-image matplotlib ptflop
 For reviewers and researchers, we recommend starting with the Reproducible Notebooks. These are designed to be executable after setting your local dataset paths.
 
 1. Navigate to the `reproducible_code/` directory.
-2. Open `Sea-Pix-GAN_reproducible.ipynb` or `MuLA-GAN_reproducible.ipynb`.
-3. Set your `BASE_PATH` in the first cell to point to your local version of the UIEB, LSUI, or custom dataset.
+2. Open `sea-pix-GAN_reproducible.ipynb` or `MuLA-GAN_reproducible.ipynb`.
+3. Set your `BASE_PATH` to point to your local version of the UIEB, LSUI, or custom dataset.
 4. Run all cells to verify Training, Testing, and Quantitative Evaluation (SSIM, PSNR, UIQM).
 
 ---
