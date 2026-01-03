@@ -1,5 +1,5 @@
 # Underwater GAN Analysis
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18134087.svg)](https://doi.org/10.5281/zenodo.18134087)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18134086.svg)](https://doi.org/10.5281/zenodo.18134086)
 
 **Comparative Analysis of GAN Architectures for Enhanced Underwater Image Quality and Efficiency**
 
@@ -140,7 +140,7 @@ If you use this repository, please cite:
   author={Pradhan, Ashis and Das, Dishant and Singh, Roland},
   journal={The Visual Computer},
   year={2026},
-  note={Under Review. Code and artifacts available at: https://doi.org/10.5281/zenodo.18134087},
+  note={Under Review. Code and artifacts available at: https://doi.org/10.5281/zenodo.18134086},
   url={https://github.com/dishantroland2025/Underwater-GAN-Analysis},
 }
 ```
