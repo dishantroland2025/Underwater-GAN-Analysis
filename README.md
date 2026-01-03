@@ -127,7 +127,7 @@ See the `LICENSE` file for details.
 
 ---
 
-## 📄 Manuscript & Citation
+## Manuscript & Citation
 
 This codebase is directly associated with:
 
