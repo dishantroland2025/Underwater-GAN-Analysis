@@ -1,15 +1,17 @@
 # Underwater GAN Analysis
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18134087.svg)](https://doi.org/10.5281/zenodo.18134087)
 
 **Comparative Analysis of GAN Architectures for Enhanced Underwater Image Quality and Efficiency**
+
+> [!IMPORTANT]
+> **Manuscript Association & Citation:** This repository provides the official implementation and reproducibility artifacts for the manuscript: 
+> **“Comparative Analysis of GAN Architectures for Enhanced Underwater Image Quality and Efficiency”** > *Currently under review at **The Visual Computer (Springer Nature)***. 
+> 
+> If you find this research or code useful, we kindly urge you to cite the associated manuscript as detailed in the [Manuscript & Citation](#-manuscript--citation) section below.
 
 ---
 
 ## Overview
-
-This repository provides the **official implementation and experimental code** accompanying the manuscript:
-
-> **“Comparative Analysis of GAN Architectures for Enhanced Underwater Image Quality and Efficiency”**
-> *Submitted to* **The Visual Computer (Springer Nature)**
 
 The goal of this work is to conduct a **systematic and reproducible comparison** of two representative GAN-based underwater image enhancement models:
 
@@ -133,7 +135,15 @@ This codebase is directly associated with:
 
 If you use this repository, please cite:
 ```bibtex
-
+@article{pradhan2026underwater,
+  title={Comparative Analysis of {GAN} Architectures for Enhanced Underwater Image Quality and Efficiency},
+  author={Pradhan, Ashis and Das, Dishant and Singh, Roland},
+  journal={The Visual Computer},
+  year={2026},
+  note={Under Review. Code and artifacts available at: https://doi.org/10.5281/zenodo.18134087},
+  url={https://github.com/dishantroland2025/Underwater-GAN-Analysis},
+  doi={10.5281/zenodo.18134087}
+}
 ```
 ---
 
