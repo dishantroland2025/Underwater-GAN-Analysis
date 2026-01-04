@@ -111,6 +111,26 @@ Our analysis shows that Sea-Pix-GAN provides superior structural preservation an
 
 ---
 
+## Sample Images
+
+<p align="center">
+  <img src="assets_sample_datasets.png" width="95%" alt="Sample images from LSUI, UFO-120, UIEB, and GoPro datasets">
+</p>
+
+<p align="center">
+  <em>
+  Figure 6: Representative sample images from the four datasets used in this study:
+  (a) LSUI, (b) UFO-120, (c) UIEB, and (d) GoPro.
+  </em>
+</p>
+
+The figure illustrates the diversity of visual characteristics across datasets, including
+color degradation, haze, scattering, low contrast, and motion blur.  
+These datasets collectively enable a comprehensive evaluation of underwater image
+enhancement and restoration performance under varied real-world conditions.
+
+---
+
 ## Reproducibility Notes
 
 * All hyperparameters match those reported in the paper.
