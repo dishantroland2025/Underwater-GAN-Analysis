@@ -114,7 +114,7 @@ Our analysis shows that Sea-Pix-GAN provides superior structural preservation an
 ## Sample Images
 
 <p align="center">
-  <img src="assets_sample_datasets.png" width="95%" alt="Sample images from LSUI, UFO-120, UIEB, and GoPro datasets">
+  <img src="Sample_Images.png" width="95%" alt="Sample images from LSUI, UFO-120, UIEB, and GoPro datasets">
 </p>
 
 <p align="center">
