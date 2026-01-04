@@ -131,6 +131,21 @@ Our analysis shows that Sea-Pix-GAN provides superior structural preservation an
 
 ---
 
+## Qualitative Visual Analysis
+
+<p align="center">
+  <img src="Qualitative_Comparison.png" width="95%" alt="Qualitative comparison of Sea-Pix-GAN and MuLA-GAN">
+</p>
+
+<p align="center">
+  <em>
+  Figure 7: Qualitative visual comparison on UIEB test samples.
+  Columns from left to right: Input, Sea-Pix-GAN, MuLA-GAN, Ground Truth.
+  </em>
+</p>
+
+---
+
 ## Reproducibility Notes
 
 * All hyperparameters match those reported in the paper.
