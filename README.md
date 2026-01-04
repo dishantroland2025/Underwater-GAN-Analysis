@@ -54,6 +54,26 @@ Only the **paired data** are required for training where applicable.
 
 ---
 
+## Sample Images
+
+<p align="center">
+  <img src="Sample_Images.png" width="95%" alt="Sample images from LSUI, UFO-120, UIEB, and GoPro datasets">
+</p>
+
+<p align="center">
+  <em>
+  Figure: Sample images from the four datasets used in this study:
+  (a) LSUI, (b) UFO-120, (c) UIEB, and (d) GoPro.
+  </em>
+</p>
+
+The figure illustrates the diversity of visual characteristics across datasets, including
+color degradation, haze, scattering, low contrast, and motion blur.  
+These datasets collectively enable a comprehensive evaluation of underwater image
+enhancement and restoration performance under varied real-world conditions.
+
+---
+
 ## Performance Benchmarks (Verified on Tesla T4)
 
 The following metrics represent native performance on standard hardware. Sea-Pix-GAN demonstrates superior throughput despite higher complexity due to optimized kernel execution.
@@ -108,26 +128,6 @@ Our analysis shows that Sea-Pix-GAN provides superior structural preservation an
 * **SSIM**: 16.33% higher average than MuLA-GAN (0.9534 vs 0.8196).
 * **UIQM**: 61.89% higher average perceptual score (4.83 vs 2.98).
 * **Efficiency**: Achieves real-time performance at 139.95 FPS with 7.15 ms latency on Tesla T4 hardware, suitable for modern autonomous underwater vehicles (AUVs).
-
----
-
-## Sample Images
-
-<p align="center">
-  <img src="Sample_Images.png" width="95%" alt="Sample images from LSUI, UFO-120, UIEB, and GoPro datasets">
-</p>
-
-<p align="center">
-  <em>
-  Figure: Sample images from the four datasets used in this study:
-  (a) LSUI, (b) UFO-120, (c) UIEB, and (d) GoPro.
-  </em>
-</p>
-
-The figure illustrates the diversity of visual characteristics across datasets, including
-color degradation, haze, scattering, low contrast, and motion blur.  
-These datasets collectively enable a comprehensive evaluation of underwater image
-enhancement and restoration performance under varied real-world conditions.
 
 ---
 
